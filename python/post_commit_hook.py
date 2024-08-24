@@ -2,7 +2,7 @@ import git
 
 def get_commit_history(repo_path):
     repo = git.Repo(repo_path)
-    commits = list(repo.iter_commits('main'))  # Replace 'main' with your branch name
+    commits = list(repo.iter_commits('master'))  # Replace 'main' with your branch name
     for commit in commits:
         print(f"Commit: {commit.hexsha}")
         print(f"Author: {commit.author.name} <{commit.author.email}>")
