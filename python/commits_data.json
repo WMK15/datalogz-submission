@@ -1,5 +1,38 @@
 [
     {
+        "commit_hash": "9ace1883791bf8edd4fbc8129426e27b5064738d",
+        "author": "Waseef Mohammad Khan",
+        "author_email": "waseef2010@gmail.com",
+        "date": "2024-08-24T20:34:51+01:00",
+        "message": "Installed SonarQube",
+        "changes": [
+            {
+                "change_type": "D",
+                "a_path": ".github/workflows/build.yml",
+                "b_path": ".github/workflows/build.yml",
+                "diff": ""
+            },
+            {
+                "change_type": "M",
+                "a_path": ".gitignore",
+                "b_path": ".gitignore",
+                "diff": ""
+            },
+            {
+                "change_type": "D",
+                "a_path": "python/commits_data.json",
+                "b_path": "python/commits_data.json",
+                "diff": ""
+            },
+            {
+                "change_type": "D",
+                "a_path": "sonar-project.properties",
+                "b_path": "sonar-project.properties",
+                "diff": ""
+            }
+        ]
+    },
+    {
         "commit_hash": "90996b68c00cce9d36171eff4d016af7d3c28195",
         "author": "Waseef Mohammad Khan",
         "author_email": "waseef2010@gmail.com",
@@ -127,15 +160,39 @@
         "message": "Testing post-commit hook",
         "changes": [
             {
+                "change_type": "A",
+                "a_path": ".github/workflows/build.yml",
+                "b_path": ".github/workflows/build.yml",
+                "diff": ""
+            },
+            {
+                "change_type": "M",
+                "a_path": ".gitignore",
+                "b_path": ".gitignore",
+                "diff": ""
+            },
+            {
                 "change_type": "M",
                 "a_path": "README.md",
                 "b_path": "README.md",
                 "diff": ""
             },
             {
+                "change_type": "A",
+                "a_path": "python/commits_data.json",
+                "b_path": "python/commits_data.json",
+                "diff": ""
+            },
+            {
                 "change_type": "M",
                 "a_path": "python/post_commit_hook.py",
                 "b_path": "python/post_commit_hook.py",
+                "diff": ""
+            },
+            {
+                "change_type": "A",
+                "a_path": "sonar-project.properties",
+                "b_path": "sonar-project.properties",
                 "diff": ""
             }
         ]
