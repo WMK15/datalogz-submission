@@ -59,7 +59,7 @@ def format_data_as_json(parsed_commits, output_file):
 
 def main():
     repo_path = "D:/PERSONAL/Projects/GitHub/headstarter/week5/hackathon/datalogz-submission"
-    script_dir = os.path.join(repo_path, "python/.venv/Scripts")
+    script_dir = os.path.join(repo_path, "python")
 
     commits = get_commit_history(repo_path)
     parsed_commits = parse_code_changes(commits)
