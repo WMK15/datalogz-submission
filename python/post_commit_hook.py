@@ -2,7 +2,7 @@ import os
 import git
 import json
 
-def get_commit_history(repo_path, branch_name='main'):
+def get_commit_history(repo_path, branch_name='master'):
     """
     Retrieve commit history for a specific branch in a Git repository.
     
