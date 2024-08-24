@@ -14,4 +14,4 @@ def get_commit_history(repo_path):
         print("\n---\n")
 
 # Example usage
-get_commit_history('/path/to/your/repo')
+get_commit_history("D:/PERSONAL/Projects/GitHub/headstarter/week5/hackathon/datalogz-submission")
