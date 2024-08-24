@@ -1,5 +1,26 @@
 [
     {
+        "commit_hash": "bba4872602bbd2f7ef07cbe44a417a569f1ca0e2",
+        "author": "Waseef Mohammad Khan",
+        "author_email": "waseef2010@gmail.com",
+        "date": "2024-08-24T20:41:39+01:00",
+        "message": "Removed unnecessary fileds in sonar-project.properties",
+        "changes": [
+            {
+                "change_type": "M",
+                "a_path": "python/commits_data.json",
+                "b_path": "python/commits_data.json",
+                "diff": ""
+            },
+            {
+                "change_type": "M",
+                "a_path": "sonar-project.properties",
+                "b_path": "sonar-project.properties",
+                "diff": ""
+            }
+        ]
+    },
+    {
         "commit_hash": "9a40537bfccb86168f5ff803b5250be0ebae1876",
         "author": "Waseef Mohammad Khan",
         "author_email": "waseef2010@gmail.com",
