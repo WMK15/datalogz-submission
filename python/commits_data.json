@@ -1,5 +1,20 @@
 [
     {
+        "commit_hash": "4697375f2bc29859c63626123804cdc9c4ebfbe9",
+        "author": "Waseef Mohammad Khan",
+        "author_email": "waseef2010@gmail.com",
+        "date": "2024-08-24T20:35:53+01:00",
+        "message": "A lot of commits i guess",
+        "changes": [
+            {
+                "change_type": "M",
+                "a_path": "python/commits_data.json",
+                "b_path": "python/commits_data.json",
+                "diff": ""
+            }
+        ]
+    },
+    {
         "commit_hash": "65ba690dd376333a95c1771166c7541bf866f195",
         "author": "Waseef Mohammad Khan",
         "author_email": "waseef2010@gmail.com",
